@@ -35,3 +35,6 @@ main.dSYM/
 # Ignore all local history of files
 .history
 .ionide
+
+# Mac
+.DS_Store
