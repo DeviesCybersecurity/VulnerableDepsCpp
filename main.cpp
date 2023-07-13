@@ -13,6 +13,8 @@
 
 //SBOM in ubuntu & debian :  https://discourse.ubuntu.com/t/creating-a-software-bill-of-materials-sbom/25519
 
+//https://security.snyk.io/vuln/SNYK-UNMANAGED-POCOPROJECTPOCO-2404465
+
 using json = nlohmann::json;
 
 int main(void) {

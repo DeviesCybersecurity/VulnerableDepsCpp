@@ -29,3 +29,9 @@ endif()
 configure_file(config.json config.json COPYONLY)
 
 target_link_libraries(VulnurableCpp PUBLIC nlohmann_json::nlohmann_json)
+
+
+##POCO
+#https://stackoverflow.com/questions/58592243/how-to-use-poco-library-in-a-simple-c-project
+add_subdirectory(dependencies/poco)
+target_link_libraries(VulnurableCpp PUBLIC PocoNet PocoXML) # replace `...` by all poco library you use

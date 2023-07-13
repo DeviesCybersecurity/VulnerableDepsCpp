@@ -1,0 +1,23 @@
+
+Testing /Users/andreas.lindmark/Documents/Dev/VulnerableCpp...
+
+
+Dependencies:
+
+
+  https://github.com|pocoproject/poco@1.9.3-all
+  confidence: 0.999
+  matching files:
+    - dependencies/poco/CHANGELOG
+    - dependencies/poco/CMakeLists.txt
+    - dependencies/poco/CONTRIBUTORS
+    ... and 6214 more files
+
+Issues:
+
+ ✗ [High] Out-of-bounds Read
+   Introduced through: https://github.com|pocoproject/poco@1.9.3-all
+   URL: https://security.snyk.io/vuln/SNYK-UNMANAGED-POCOPROJECTPOCO-2404465
+
+Tested 1 dependency for known issues, found 1 issue.
+
