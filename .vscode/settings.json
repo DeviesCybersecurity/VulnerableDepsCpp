@@ -64,5 +64,4 @@
         "algorithm": "cpp"
     },
     "cmake.configureOnOpen": true,
-    "cmake.cmakePath" : "/Applications/Cmake.app/contents/bin/cmake"
 }
