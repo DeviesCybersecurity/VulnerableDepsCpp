@@ -3,15 +3,6 @@
 #include <string>
 #include <nlohmann/json.hpp>
 
-//https://medium.com/@dexterchan_44737/visual-studio-code-build-and-debug-a-c-with-cmake-on-mac-os-7633bc59bf34
-//https://code.visualstudio.com/docs/cpp/CMake-linux
-
-//https://github.com/nlohmann/json
-//https://github.com/eclipse/mosquitto
-//https://github.com/iDoka/awesome-canbus
-
-
-//SBOM in ubuntu & debian :  https://discourse.ubuntu.com/t/creating-a-software-bill-of-materials-sbom/25519
 
 //https://security.snyk.io/vuln/SNYK-UNMANAGED-POCOPROJECTPOCO-2404465
 
