@@ -4,13 +4,11 @@ This is a project to test Software Composition Analysis Tools, see if they can f
 It has currently been scanned by:
 * Snyk
 
-
 Todo:
 * Blackduck
 * https://cyclonedx.org
 * Google OSV (when they support C++)
 ...
-
 
 Scanners which will not work
 * https://github.com/anchore/syft requires Conan
@@ -28,3 +26,9 @@ Notes:
 * Snyk is not able to detect Nlohmman Json-library at all. It is downloaded by Cmake when building so I'd expect Snyk to find it after Cmake-build.
 * Snyk will detect Mosquitto as a dependency, even if it is not included in the build. As expected since Snyk only scans the source files in the directories and do not know what is actually included the build.
 * If a directory does not contain any identified dependencies it will just output : "Errors Could not test dependencies in C:\Dev\Vulnerable\build"
+
+
+Instructions:
+The intention is to try SCA and vulnerability scanning tools and not to actually build the project.
+
+Snyk : just run snyk CLI in the root directory. E.g. snyk-win test --unmanaged
